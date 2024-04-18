@@ -5,13 +5,12 @@ metadata:
   name: yelp-camp-secrets
 type: Opaque
 data:
-  CLOUDINARY_CLOUD_NAME: ZG5lZnVpdjVuCg==
-  CLOUDINARY_KEY: ODkxMTc4NDc5MTM5Mzk5Cg==
-  CLOUDINARY_SECRET: RXhMVUEzZTR2ZllESksxUzNPUkNadUNTaG1jCg==
-  MAPBOX_TOKEN: c2suZXlKMUlqb2laMkYwZEhWd1lXeHNhWE5oYVNJc0ltRWlPaUpqYkhZMVpUQjZabm93TVhJMk1tcHZZbloxTXpGblpHVnlJbjAuQ1dUS1Q0M1ZxRjltY0xyYm9YWTdQZwo=
-  DB_URL: bW9uZ29kYitzcnY6Ly9wcmFrYXNoMjI3MTI1OjU3QTRxU1QzbnNvanNzMEhAcHJha2FzaC1kYi56bGhjdGZ2Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1QcmFrYXNoLURCCg==  
-  SECRET: c2FpZGV2b3BzCg==
-
+  CLOUDINARY_CLOUD_NAME=dnefuiv5n
+  CLOUDINARY_KEY=891178479139399
+  CLOUDINARY_SECRET=ExLUA3e4vfYDJK1S3ORCZuCShmc
+  MAPBOX_TOKEN=sk.eyJ1IjoiZ2F0dHVwYWxsaXNhaSIsImEiOiJjbHY1ZTB6ZnowMXI2MmpvYnZ1MzFnZGVyIn0.CWTKT43VqF9mcLrboXY7Pg
+  DB_URL="mongodb+srv://prakash227125:57A4qST3nsojss0H@prakash-db.zlhctfv.mongodb.net/?retryWrites=true&w=majority&appName=Prakash-DB"
+  SECRET=saidevops
 ---
 apiVersion: apps/v1
 kind: Deployment
